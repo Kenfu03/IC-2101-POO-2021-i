@@ -1,8 +1,10 @@
 package com.company;
 
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 	Cuenta cuenta1 = new Cuenta(1122, 500.000, 4.5);
 	cuenta1.depositarDinero(150.000);
