@@ -1,0 +1,23 @@
+{
+  "aparatos": [
+    {
+      "nombre": "Lavadora",
+      "marca": "Whirpool",
+      "tipo": "modalidades",
+      "modalidades": ["delicado", "normal", "fuerte"]
+    },
+    {
+      "nombre": "Televisor",
+      "marca": "Samsung",
+      "tipo": "señales",
+      "señales": [7,162,53,44,580]
+    },
+    {
+      "nombre": "Aire Acondicionado",
+      "marca": "LG",
+      "tipo": "termoregulable",
+      "temperaturaMin": 10,
+      "temperaturaMax": 35
+    }
+  ]
+}
