@@ -5,22 +5,17 @@
 <?import javafx.scene.layout.*?>
 
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
-   <children>
-      <Pane prefHeight="444.0" prefWidth="517.0">
-         <children>
-            <ImageView fitHeight="322.0" fitWidth="322.0" layoutX="98.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../resourses/tablero.png" />
-               </image>
-            </ImageView>
-            <Button layoutX="214.0" layoutY="379.0" mnemonicParsing="false" onAction="#lanzarDado" text="Lanzar Dardo!" />
-            <ImageView fx:id="dardo" fitHeight="84.0" fitWidth="96.0" layoutX="259.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../resourses/dardo.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-   </children>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+   <Pane prefHeight="444.0" prefWidth="517.0">
+      <ImageView fitHeight="322.0" fitWidth="322.0" layoutX="98.0" layoutY="31.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@../../resourses/tablero.png"/>
+      </ImageView>
+      <Button layoutX="214.0" layoutY="379.0" mnemonicParsing="false" onAction="#lanzarDado" text="Lanzar Dardo!"/>
+      <ImageView fx:id="dardo" fitHeight="84.0" fitWidth="96.0" layoutX="259.0" layoutY="111.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@../../resourses/dardo.png"/>
+      </ImageView>
+   </Pane>
 </GridPane>

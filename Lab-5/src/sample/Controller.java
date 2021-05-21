@@ -11,7 +11,7 @@ public class Controller {
 
 
     @FXML
-    private ImageView dardo;
+    public ImageView dardo;
     public void lanzarDado(ActionEvent event){
         double randomX = min + Math.random() * (max - min);
         double randomY = min + Math.random() * (max - min);
